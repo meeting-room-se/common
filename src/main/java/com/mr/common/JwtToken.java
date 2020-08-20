@@ -17,7 +17,7 @@ public class JwtToken {
      * 私钥密码，保存在服务器，客户端是不会知道密码的，以防止被攻击
      */
 
-    private static String SECRET = "wqlz";
+    private static String SECRET = "nwafu";
 
 
     /**
