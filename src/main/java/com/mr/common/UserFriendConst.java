@@ -41,4 +41,21 @@ public class UserFriendConst {
             }
         }
     }
+
+    public enum UserFriendDeleted{
+        NONDELETED(Byte.valueOf("0")),
+        DELETED(Byte.valueOf("1"));
+
+        UserFriendDeleted(Byte code)
+        {
+            this.code = code;
+        }
+
+        private Byte code;
+
+        public Byte getCode()
+        {
+            return this.code;
+        }
+    }
 }
